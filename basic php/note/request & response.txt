@@ -1,0 +1,19 @@
+Request 
+----------
+get => url address ka nay poc
+
+format => url?key=value&key=value&key=value (request)
+       => print_r($_REQUEST)  (response)
+
+
+post => form ka pl support
+
+method (post)
+
+$_REQUEST => both support get and post method
+
+ta ku chin si htoke pya ml so => $_GET
+                              => $_POST
+                              => $_FILE
+
+$_REQUEST htk ka array kan twe u ml so yin =>  echo "I'm {$_REQUEST['key']}"

@@ -1,0 +1,13 @@
+$name = "Hmue" //local variable scope
+
+string htl mr thone ml so => "My name is $name"
+                          => .$name
+
+variable scope
+---------------
+function myName(){
+    global $name;  //global variable 
+    return "My name is $name";
+
+    return $GLOBALS['name(key)']
+}

@@ -1,0 +1,22 @@
+variable => $variable
+
+output => echo ()
+
+datatype => $string / $number / $boolean
+
+array => $arr = ['x','y']
+associated array => $ass = [
+                              "name" => "Hmue",
+                              "age" => 20  
+                           ]
+
+array twe ko output htoke yin => print_r
+
+function => function myName(){
+    return "my name is Hmue";
+}
+echo myName()
+
+looping => for($i=1;$i<11;$i++){
+    echo "loop $i"
+}
